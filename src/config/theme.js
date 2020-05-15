@@ -1,0 +1,10 @@
+const THEME = {
+  PRIMARY_COLOR: '#7F5CEC',
+  RED: '#FF0000',
+  GREEN: '#0EA600',
+  SECONDARY_COLOR: '#C85CEC',
+  BACKGROUND_COLOR: '#F1F0F3',
+  WHITE: '#FFFFFF',
+};
+
+export default THEME;

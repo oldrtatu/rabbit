@@ -72,7 +72,7 @@ class Market extends React.Component {
     return (
       <View
         key={key}
-        style={[style.cardContainer, {paddingRight: key == 3 ? 50 : 0}]}>
+        style={[style.cardContainer, {marginRight: key == 3 ? 100 : 20}]}>
         <View style={style.section}>
           <Text style={[style.text, style.code]}>{data.code}</Text>
           <Text style={[style.text, style.right]}>{data.currentPrice}</Text>

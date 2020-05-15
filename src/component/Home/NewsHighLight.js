@@ -39,7 +39,7 @@ class NewsHighLight extends React.Component {
       return (
         <View
           key={index}
-          style={[style.container, {paddingRight: index == 1 ? 50 : 0}]}>
+          style={[style.container, {marginRight: index == 1 ? 100 : 20}]}>
           <View style={style.imageContainer}>
             <Image source={item.imageURl} style={style.image} />
 

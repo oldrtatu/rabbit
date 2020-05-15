@@ -13,6 +13,7 @@ class Home extends React.Component {
         style={{
           flex: 1,
           backgroundColor: THEME.WHITE,
+          position: 'relative',
         }}>
         <ScrollView
           style={{
@@ -21,8 +22,8 @@ class Home extends React.Component {
           <Header />
           <Market />
           <Discussion />
-          <AddPostFloating />
         </ScrollView>
+        <AddPostFloating />
       </View>
     );
   }

@@ -18,7 +18,8 @@ class Home extends React.Component {
         <ScrollView
           style={{
             flex: 1,
-          }}>
+          }}
+          showsVerticalScrollIndicator={false}>
           <Header />
           <Market />
           <Discussion />

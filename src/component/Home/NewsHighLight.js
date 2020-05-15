@@ -101,6 +101,7 @@ class NewsHighLight extends React.Component {
 const style = StyleSheet.create({
   container: {
     marginRight: 20,
+    width: Dimensions.get('screen').width * 0.75,
   },
   imageContainer: {
     position: 'relative',
@@ -125,14 +126,14 @@ const style = StyleSheet.create({
   },
   infoContainer: {},
   title: {
-    width: Dimensions.get('screen').width * 0.75,
+    flex: 1,
     fontSize: 18,
     marginBottom: 5,
     fontWeight: '600',
     fontFamily: 'Avenir-Medium',
   },
   summary: {
-    width: Dimensions.get('screen').width * 0.7,
+    flex: 1,
     textAlign: 'justify',
     color: 'gray',
     fontSize: 14,

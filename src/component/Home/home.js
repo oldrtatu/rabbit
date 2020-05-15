@@ -4,6 +4,7 @@ import Header from './header';
 import Market from './Market';
 import THEME from '../../config/theme';
 import Discussion from './discussion';
+import AddPostFloating from '../general/AddPostFloating';
 
 class Home extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class Home extends React.Component {
           <Header />
           <Market />
           <Discussion />
+          <AddPostFloating />
         </ScrollView>
       </View>
     );

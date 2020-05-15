@@ -72,8 +72,15 @@ class NewsHighLight extends React.Component {
           marginBottom: 50,
           width: '100%',
           flex: 1,
-        }}>
-        <Text style={{marginLeft: 20, fontSize: 20, marginBottom: 20}}>
+        }}
+        key={this.props.keyToSet}>
+        <Text
+          style={{
+            marginLeft: 20,
+            fontSize: 20,
+            marginBottom: 20,
+            fontFamily: 'Avenir-Medium',
+          }}>
           News Highlights
         </Text>
         <ScrollView
@@ -114,6 +121,7 @@ const style = StyleSheet.create({
     paddingVertical: 5,
     margin: 5,
     borderRadius: 4,
+    fontFamily: 'Avenir-Book',
   },
   infoContainer: {},
   title: {
@@ -121,6 +129,7 @@ const style = StyleSheet.create({
     fontSize: 18,
     marginBottom: 5,
     fontWeight: '600',
+    fontFamily: 'Avenir-Medium',
   },
   summary: {
     width: Dimensions.get('screen').width * 0.7,
@@ -129,6 +138,7 @@ const style = StyleSheet.create({
     fontSize: 14,
     lineHeight: 22,
     marginTop: 5,
+    fontFamily: 'Avenir-Book',
   },
 
   bookmark: {

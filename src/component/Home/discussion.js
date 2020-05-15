@@ -51,9 +51,9 @@ class Discussion extends React.Component {
   renderPost = () =>
     postData.map((item, index) => {
       return (
-        <React.Fragment>
+        <React.Fragment key={`${index}2`}>
           <Post data={item} key={index} />
-          {index == 1 ? <NewsHighLight key={10} /> : null}
+          {index == 1 ? <NewsHighLight keyToSet={`${index}1`} /> : null}
         </React.Fragment>
       );
     });
@@ -61,7 +61,13 @@ class Discussion extends React.Component {
   render() {
     return (
       <View>
-        <Text style={{marginLeft: 20, fontSize: 20, marginBottom: 20}}>
+        <Text
+          style={{
+            marginLeft: 20,
+            fontSize: 20,
+            marginBottom: 20,
+            fontFamily: 'Avenir-Medium',
+          }}>
           Discussion
         </Text>
         {this.renderPost()}

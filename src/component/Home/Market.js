@@ -55,6 +55,7 @@ class Market extends React.Component {
             {
               color: isNegative ? THEME.RED : THEME.GREEN,
               fontSize: 16,
+              fontFamily: 'Avenir-Book',
             },
           ]}>
           {isNegative ? `${change}%` : `+${change}%`}
@@ -127,12 +128,14 @@ const style = StyleSheet.create({
   title: {
     marginLeft: 20,
     fontSize: 20,
+    fontFamily: 'Avenir-Medium',
   },
   navigateToShowAll: {
     marginLeft: 'auto',
     marginRight: 20,
     color: '#D9D9D9',
     fontSize: 12,
+    fontFamily: 'Avenir-Book',
   },
   container: {
     position: 'relative',
@@ -160,15 +163,18 @@ const style = StyleSheet.create({
     fontSize: 26,
     fontWeight: '600',
     marginLeft: 20,
+    fontFamily: 'Avenir-Medium',
   },
 
   text: {
     width: 80,
+    fontFamily: 'Avenir-Book',
   },
 
   right: {
     marginLeft: 'auto',
     marginRight: 10,
+    fontFamily: 'Avenir-Book',
   },
 
   left: {

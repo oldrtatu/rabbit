@@ -119,6 +119,7 @@ const style = StyleSheet.create({
     backgroundColor: THEME.WHITE,
     padding: 5,
     margin: 5,
+    fontFamily: 'Avenir-Book',
   },
 });
 
@@ -147,6 +148,7 @@ const postBottom = StyleSheet.create({
   counts: {
     marginRight: 5,
     textAlignVertical: 'center',
+    fontFamily: 'Avenir-Book',
   },
 });
 
@@ -172,6 +174,7 @@ const postHeader = StyleSheet.create({
   name: {
     fontSize: 16,
     fontWeight: '600',
+    fontFamily: 'Avenir-Book',
   },
   userContainer: {
     flexDirection: 'row',
@@ -182,10 +185,12 @@ const postHeader = StyleSheet.create({
     fontSize: 12,
     fontWeight: '200',
     marginRight: 5,
+    fontFamily: 'Avenir-Book',
   },
   timestamp: {
     fontSize: 10,
     color: '#D9D9D9',
+    fontFamily: 'Avenir-Book',
   },
   action: {
     width: 20,
@@ -206,6 +211,7 @@ const postHeader = StyleSheet.create({
   },
   followText: {
     fontSize: 12,
+    fontFamily: 'Avenir-Book',
   },
   more: {
     marginRight: 20,

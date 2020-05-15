@@ -44,8 +44,8 @@ const style = StyleSheet.create({
   },
   appName: {
     marginLeft: 'auto',
-    fontSize: 16,
-    fontWeight: '700',
+    fontSize: 20,
+    fontFamily: 'Avenir-Medium',
   },
 });
 

@@ -50,26 +50,13 @@ const TabBar = ({state, descriptors, navigation}) => {
         };
 
         return (
-          <TouchableOpacity style={style.container}>
+          <TouchableOpacity style={style.container} key={index}>
             <Image
               source={navs[route.name]}
               style={[style.image, {width: route.name == 'Market' ? 40 : 20}]}
             />
           </TouchableOpacity>
         );
-
-        // return (
-        //   <TouchableOpacity
-        //     accessibilityRole="button"
-        //     accessibilityStates={isFocused ? ['selected'] : []}
-        //     accessibilityLabel={options.tabBarAccessibilityLabel}
-        //     testID={options.tabBarTestID}
-        //     onPress={onPress}
-        //     onLongPress={onLongPress}
-        //     style={{flex: 1}}>
-        //     <Text style={{color: isFocused ? '#673ab7' : '#222'}}>{label}</Text>
-        //   </TouchableOpacity>
-        // );
       })}
     </View>
   );

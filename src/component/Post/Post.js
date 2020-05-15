@@ -11,6 +11,7 @@ class Post extends React.Component {
             textAlign: 'justify',
             padding: 10,
             lineHeight: 22,
+            fontFamily: 'Avenir-Book',
           }}>
           {this.props.data.post.text}
         </Text>
